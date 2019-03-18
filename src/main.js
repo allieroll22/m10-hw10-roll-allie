@@ -22,21 +22,11 @@ waterSpan.appendChild(waterTemp);
 
 //const water = () => waterSpan.appendChild(waterTemp);
 
-let hotTemp = document.getElementById('good-temp');
+const hotTemp = document.getElementById('good-temp');
 
-setTimeout(function(){
-  if (waterTemp > 212){
-    hotTemp.classList.remove("hide").add("show");
+setTimeout(function(myFunction){
+  if (waterTemp > '212'){
+    hotTemp.classList.remove('hide').add('show');
   }
 
 }, 3000);
-/*
-
- boilingSpan.appendChild(boilingTemp);
-  freezingSpan.appendChild(freezingTemp);
-  waterSpan.appendChild(waterTemp);
-
-let goodTemp = document.getElementById('good-temp');
-setTimeout(functionRun, 3000);
-
-*/
