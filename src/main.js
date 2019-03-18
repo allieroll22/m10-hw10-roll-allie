@@ -5,16 +5,22 @@
 
 const boilingSpan = document.getElementById('boiling-temp');
 const boilingTemp = document.createTextNode(' 212');
-const boiling = () => boilingSpan.appendChild(boilingTemp);
+boilingSpan.appendChild(boilingTemp);
+
+//const boiling = () => boilingSpan.appendChild(boilingTemp);
 
 const freezingSpan = document.getElementById('freezing-temp');
-const freezingTemp = document.createTextNode('32')
-const freezing = () => freezingSpan.appendChild(freezingTemp);
+const freezingTemp = document.createTextNode('32');
+freezingSpan.appendChild(freezingTemp);
+
+//const freezing = () => freezingSpan.appendChild(freezingTemp);
 
 
 const waterSpan = document.getElementById('water-temp');
-const waterTemp = document.createTextNode('300')
-const water = () => waterSpan.appendChild(waterTemp);
+const waterTemp = document.createTextNode('300');
+waterSpan.appendChild(waterTemp);
+
+//const water = () => waterSpan.appendChild(waterTemp);
 
 let hotTemp = document.getElementById('good-temp');
 
