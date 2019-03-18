@@ -22,7 +22,7 @@ waterSpan.appendChild(waterTemp);
 
 //const water = () => waterSpan.appendChild(waterTemp);
 
-const hotTemp = document.getElementById('good-temp');
+const hotTemp = document.getElementById('boiling');
 
 setTimeout(function(myFunction){
   if (waterTemp > '212'){
